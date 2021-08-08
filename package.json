@@ -1,0 +1,14 @@
+{
+  "name": "zoho-metadata",
+  "version": "0.1.0",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "js-beautify": "^1.14.0"
+  },
+  "scripts": {
+    "crm:test:auth": "node crm/testAuth.js",
+    "crm:functions:fetch": "node crm/fetchAllFunctions.js"
+  }
+}
