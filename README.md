@@ -48,3 +48,9 @@ yarn run crm:functions:fetch
 Creates **_AllFunctions.json** with all functions and metadata. Also generates a file for each function with the name **\<Module Name\>-\<function name\>.ds** along with comments containing some useful metadata values.
 
 All files stored in the *functions* directory which is created when first run.
+
+### Fetch Latest Backup Files
+```
+yarn run crm:backups:fetch
+```
+Downloads all of the latest backup files and puts them in the *backups* directory with naming convention: YYYYMMDD_Data_###.zip for data files and YYYYMMDD_Attachments_###.zip. The date in the file prefix is the expiration date of the files' availability.

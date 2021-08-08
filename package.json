@@ -9,6 +9,7 @@
   },
   "scripts": {
     "crm:test:auth": "node crm/testAuth.js",
-    "crm:functions:fetch": "node crm/fetchAllFunctions.js"
+    "crm:functions:fetch": "node crm/fetchAllFunctions.js",
+    "crm:backups:fetch": "node crm/fetchBackupFiles.js"
   }
 }
